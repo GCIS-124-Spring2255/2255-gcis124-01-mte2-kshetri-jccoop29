@@ -4,8 +4,6 @@
 
 package mte2.cards;
 
-import java.util.Comparator;
-
 public class PlayingCard implements Comparable<PlayingCard> {
     
     private final Suit suit;  // The suit of this card.
