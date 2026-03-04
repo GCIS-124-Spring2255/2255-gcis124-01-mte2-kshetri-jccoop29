@@ -28,11 +28,15 @@ public enum Rank {
      * 
      * @param rankNumber The rank number.
      */
-    private Rank(int rankNumber) {    this.rankNumber = rankNumber;    }
+    private Rank(int rankNumber) {
+        this.rankNumber = rankNumber;
+    }
 
     /**
      * Returns the number for this rank.
      * @return The number for this rank.
      */
-    public int getRankNumber() {    return this.rankNumber;    }
+    public int getRankNumber() {
+        return this.rankNumber;
+    }
 }
